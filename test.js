@@ -1,4 +1,4 @@
-var qconf = require('node-qconf');
+var qconf = require('./qconf.js');
 
 console.log('version:', qconf.version())
 console.log('getConf:', qconf.getConf('/demo'))
